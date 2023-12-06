@@ -1,0 +1,227 @@
+
+/*------------ NAVBAR -------------*/
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    overflow-X: hidden;
+}
+
+.header{
+    background-color:black;
+    height: 80px;
+    position: fixed;
+    top: -1px;
+    z-index: 14;
+    
+}
+.mar{
+    margin-top: 80px;
+    height:30px;
+    background-color: aliceblue;
+}
+
+
+.pagelogo{
+    margin-top:10px ;
+    width: 50px;
+    float: left;
+    margin-left: 20px;
+}
+
+.pagename{
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color:aliceblue;    
+}
+
+ul{
+    list-style: none;
+    margin-left: 280px; 
+}
+
+.nav-item{
+    display: inline-block;
+    font-family: sans-serif;
+    font-weight: bold;   
+}
+
+.nav-link{
+    color:aliceblue;
+    font-size: 15px;
+    margin-top: 15px;
+    text-decoration: none;
+    position: relative;
+    transition: all 0.2s;
+}
+
+.nav-link:hover{
+    color:yellow;
+    text-decoration: underline;
+    border-bottom: 2px solid yellow;
+}
+.viewuserde{
+    
+}
+.bactohome{
+    
+}
+.regfor{
+    margin-left: 480px;
+    margin-top: 100px;
+}
+/*------------ HOME > SLIDER -------------*/
+
+.slide{
+    
+    width: 100%;
+    height: 490px;
+    position: relative;
+    
+}
+
+.slideimg{
+    width: 100%;
+    height: 490px;
+}
+
+/*------------ -------------*/
+.abt-title{
+    margin-left: 500px;
+    margin-right: 50px;
+    margin-top: 100px;
+    font-weight: bold;
+}
+.abt-1{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.abt-2{
+    margin-right: 45px;
+}
+.abt-l{
+    margin-left: 40px;
+    margin-bottom: 80px;
+}
+
+/*------------ -------------*/
+
+.log{
+
+    background-color: lightgray;
+    justify-content: center;
+}
+.admin-log{
+
+    background-color: lightgray;
+    justify-content: center;
+}
+.log-title{
+ 
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    color: black;
+
+}
+.admin-log-title{
+ 
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    color: black;
+
+}
+.log-form{
+
+    margin-left: 550px;
+    padding-bottom: 100px;
+    
+}
+.admin-log-form{
+
+    margin-left: 550px;
+    padding-bottom: 100px;
+    
+}
+td{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+
+}
+.sub{
+    background-color:black;
+    color: aliceblue;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-weight: bold;
+    padding: 8px;
+    border: none;
+    border-radius: 30px;
+
+}
+.reg-btn{
+    border: none;
+    background-color: black;
+    color: aliceblue;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.reg-title{
+    margin-bottom: 50px;
+}
+/*------------- CONTACT US ----------------------------*/
+.con{
+    background-color: black;
+    height: 500px;
+    color:aliceblue;
+}
+.addi{
+    font-size: 50px;
+    padding: 30px;
+    border-radius: 50%;
+    
+    justify-content: center;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.addi:hover{
+    color: yellow;
+    font-size: 80px;
+}
+.addi-title{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.addi-title:hover{
+    color: yellow;
+
+}
+.add{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.add:hover{
+    color: yellow;
+}
+.stu-detail-title{
+    margin-left: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: bold;
+
+}
+

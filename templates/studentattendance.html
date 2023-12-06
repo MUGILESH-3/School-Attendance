@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SCHOOL ATTENDANCE</title>
+    {% load static %}
+    <link rel="shortcut icon" href="{% static 'pics/g-cap.png'%}" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/index.css'%}">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<!------------------------------------------------------NAV BAR--------------------------------------------------------------------->
+<div class="container-fluid header">
+    <div class="row">
+    <div class="col-12">
+    <img class="pagelogo" src="{% static 'pics/g-cap.png'%}">
+    <h1 class="pagename">SCHOOL <span style="color:yellow;">ATTENDANCE</span></h1>
+    
+    <div class="nav">
+        <ul>
+            <li class="nav-item">
+                <a class="nav-link bactohome" href="{% url 'index' %}"><i class="fa-solid fa-house-chimney"></i>&nbsp;Back to home</a>
+            </li>
+             
+        </ul>
+        
+    </div>
+    </div>
+    </div>
+    
+</div>
+
+<div class="container-fluid mar" >
+    <div class="row" id="home">
+        <div class="col-12">
+            <marquee><p style="color:black;font-weight: bold;">Admissions Now Open for the School! 🎉 Apply Today and Secure Your Child's Bright Future. 📚✨ Don't Miss Out on this Opportunity! 🌟 Contact Us for More Information. 📞🏫</p></marquee>
+
+        </div>
+    </div>
+</div>
+<!------------------------------------------------------------------------------------------------------------------------------->
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <h3 style="text-align: center;font-weight: bold;">ATTENDANCE</h3>
+        </div>
+    </div class="row">
+    <form action=" " method="POST" autocomplete="off">
+        {% csrf_token %}
+        <table class="regfor">
+            <tr>
+                <td><label>Name&nbsp;</label>
+                </td>
+                <td>
+                    <input type="text" name="name" >
+                </td>
+            </tr>
+        
+            <tr>
+                <td><label>Roll no&nbsp;</label>
+                </td>
+                <td>
+                    <input type="text" name="rollno">
+                </td>
+            </tr>
+        <tr>
+            <td>
+                <label>Date&nbsp;</label>
+            </td>
+            <td>
+                <input type="date" name="date">
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" value="Present" class="sub">
+            </td>
+        </tr>
+        </table>
+    </form>
+    
+    <div>
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!------------------------------------------------------------------------------------------------------------------------------->
+
+</body>
+</html>
